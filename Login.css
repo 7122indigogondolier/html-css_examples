@@ -1,0 +1,25 @@
+body {
+background-image: linear-gradient(gray, white); 
+height: 1000px; 
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+color: gray; 
+}
+
+.container { 
+padding: 100px;
+background-color: #f1edec;
+position: fixed; 
+top: 30%; 
+left: 25%; 
+width: 500px; 
+text-align: center; 
+float: center; 
+border: 4px solid gray; 
+box-shadow: 20px 20px 50px 10px gray;
+border-radius: 25px;  
+transition: .2s ease-in; 
+}
+
+.container:hover{
+transform: scale(1.2); 
+}
